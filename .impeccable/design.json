@@ -1,0 +1,519 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-13T07:04:29.267Z",
+  "title": "Design System: Dr. Shweta Dental Clinic",
+  "extensions": {
+    "colorMeta": {
+      "enamel": {
+        "role": "neutral",
+        "displayName": "Enamel",
+        "canonical": "#F3ECDF",
+        "oklch": "oklch(94.5% 0.019 83.1)",
+        "cssVar": "--enamel",
+        "tonalRamp": [
+          "#0E0B05",
+          "#29241C",
+          "#464138",
+          "#666056",
+          "#888276",
+          "#AAA499",
+          "#CEC8BE",
+          "#F3EEE4"
+        ]
+      },
+      "vellum": {
+        "role": "neutral",
+        "displayName": "Vellum",
+        "canonical": "#E8DCC6",
+        "oklch": "oklch(89.8% 0.032 82.8)",
+        "cssVar": "--vellum",
+        "tonalRamp": [
+          "#100A02",
+          "#2B2416",
+          "#4A4130",
+          "#6A604D",
+          "#8C816E",
+          "#AEA491",
+          "#D2C8B6",
+          "#F7EDDD"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#FBF7F0",
+        "oklch": "oklch(97.7% 0.010 81.8)",
+        "cssVar": "--paper",
+        "tonalRamp": [
+          "#0D0B08",
+          "#272520",
+          "#44423D",
+          "#64615B",
+          "#85827C",
+          "#A8A59F",
+          "#CCC9C3",
+          "#F1EEE9"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Warm Ink",
+        "canonical": "#1C1A16",
+        "oklch": "oklch(21.9% 0.008 84.6)",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "#0C0B08",
+          "#272521",
+          "#44423E",
+          "#63615C",
+          "#84827D",
+          "#A7A5A0",
+          "#CBC9C4",
+          "#F0EEEA"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#4A453C",
+        "oklch": "oklch(39.2% 0.016 82.3)",
+        "cssVar": "--ink-soft",
+        "tonalRamp": [
+          "#0E0B06",
+          "#28251E",
+          "#464139",
+          "#666157",
+          "#878278",
+          "#AAA49B",
+          "#CDC8C0",
+          "#F3EEE5"
+        ]
+      },
+      "ink-mute": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#6B6456",
+        "oklch": "oklch(50.6% 0.023 84.6)",
+        "cssVar": "--ink-mute",
+        "tonalRamp": [
+          "#0F0B04",
+          "#29241A",
+          "#474136",
+          "#676053",
+          "#898273",
+          "#ABA497",
+          "#CFC8BB",
+          "#F4EEE2"
+        ]
+      },
+      "malachite": {
+        "role": "secondary",
+        "displayName": "Bombay Malachite",
+        "canonical": "#163A32",
+        "oklch": "oklch(31.9% 0.044 176.6)",
+        "cssVar": "--malachite",
+        "tonalRamp": [
+          "#00100B",
+          "#0E2B25",
+          "#2A4941",
+          "#476961",
+          "#678B82",
+          "#8CAEA4",
+          "#B1D1C8",
+          "#D8F6EE"
+        ]
+      },
+      "malachite-deep": {
+        "role": "secondary",
+        "displayName": "Deep Malachite",
+        "canonical": "#0F2B25",
+        "oklch": "oklch(26.5% 0.036 177.4)",
+        "cssVar": "--malachite-deep",
+        "tonalRamp": [
+          "#000F0B",
+          "#142A25",
+          "#2F4842",
+          "#4C6861",
+          "#6D8982",
+          "#90ACA5",
+          "#B6D0C9",
+          "#DCF5EE"
+        ]
+      },
+      "malachite-line": {
+        "role": "secondary",
+        "displayName": "Malachite Hairline",
+        "canonical": "#2E5449",
+        "oklch": "oklch(41.4% 0.048 173.3)",
+        "cssVar": "--malachite-line",
+        "tonalRamp": [
+          "#00100A",
+          "#0D2B23",
+          "#284A40",
+          "#456A5F",
+          "#668C80",
+          "#8AAEA3",
+          "#B0D2C7",
+          "#D7F7EC"
+        ]
+      },
+      "gilt": {
+        "role": "tertiary",
+        "displayName": "Gilt",
+        "canonical": "#9C7432",
+        "oklch": "oklch(58.6% 0.097 77.3)",
+        "cssVar": "--gilt",
+        "tonalRamp": [
+          "#1B0400",
+          "#3A1E00",
+          "#5B3A00",
+          "#7F5916",
+          "#A27B3C",
+          "#C49E65",
+          "#E7C38E",
+          "#FFE9B7"
+        ]
+      },
+      "gilt-bright": {
+        "role": "tertiary",
+        "displayName": "Bright Gilt",
+        "canonical": "#D9BD86",
+        "oklch": "oklch(81.0% 0.079 83.8)",
+        "cssVar": "--gilt-bright",
+        "tonalRamp": [
+          "#170700",
+          "#342100",
+          "#543E0C",
+          "#765D2A",
+          "#987F4B",
+          "#BAA272",
+          "#DDC699",
+          "#FFECC2"
+        ]
+      },
+      "gilt-soft": {
+        "role": "tertiary",
+        "displayName": "Soft Gilt",
+        "canonical": "#C7A566",
+        "oklch": "oklch(73.9% 0.091 82.0)",
+        "cssVar": "--gilt-soft",
+        "tonalRamp": [
+          "#190600",
+          "#372000",
+          "#573D00",
+          "#7A5C1D",
+          "#9D7D41",
+          "#BFA069",
+          "#E2C591",
+          "#FFEBBA"
+        ]
+      },
+      "gilt-ink": {
+        "role": "tertiary",
+        "displayName": "Gilt Ink",
+        "canonical": "#7A5A20",
+        "oklch": "oklch(49.0% 0.085 79.0)",
+        "cssVar": "--gilt-ink",
+        "tonalRamp": [
+          "#190600",
+          "#371F00",
+          "#573C04",
+          "#7A5B24",
+          "#9D7D47",
+          "#BFA06E",
+          "#E2C495",
+          "#FFEABE"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "On-Dark",
+        "canonical": "#EFE6D3",
+        "oklch": "oklch(92.7% 0.027 85.7)",
+        "cssVar": "--on-dark",
+        "tonalRamp": [
+          "#0F0A03",
+          "#2A2418",
+          "#484133",
+          "#686051",
+          "#898271",
+          "#ACA494",
+          "#D0C8B9",
+          "#F5EEDF"
+        ]
+      },
+      "on-dark-mute": {
+        "role": "neutral",
+        "displayName": "On-Dark Mute",
+        "canonical": "#B9C2B4",
+        "oklch": "oklch(80.3% 0.022 134.1)",
+        "cssVar": "--on-dark-mute",
+        "tonalRamp": [
+          "#080D06",
+          "#21271E",
+          "#3E443A",
+          "#5C6458",
+          "#7D8579",
+          "#A0A89C",
+          "#C4CCC0",
+          "#EAF1E6"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Error Oxide",
+        "canonical": "#8A2F25",
+        "oklch": "oklch(43.8% 0.126 29.4)",
+        "cssVar": "--error",
+        "tonalRamp": [
+          "#260000",
+          "#4A0603",
+          "#70261D",
+          "#984339",
+          "#BE6559",
+          "#E08B7D",
+          "#FFB1A4",
+          "#FFD8CB"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display-hero": {
+        "displayName": "Display Hero",
+        "purpose": "Hero headline only; three staggered lines; desktop clamp(5rem, 8.4vw, 8.6rem)."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Every section heading; mobile menu links."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Treatment names; testimonial quotes run larger."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "FAQ questions, step titles, captions, booking headings."
+      },
+      "letter": {
+        "displayName": "Letter",
+        "purpose": "Doctor's letter and visit address."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading copy at a 30 to 40rem measure, lining numerals."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Captions, meta, field and readout labels; sentence case."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Pill buttons and action bar."
+      },
+      "script": {
+        "displayName": "Signature",
+        "purpose": "Doctor's signature only, rotated -4deg."
+      }
+    },
+    "shadows": [
+      {
+        "name": "floating-bar",
+        "value": "0 12px 32px rgba(28, 26, 22, .28)",
+        "purpose": "Mobile action bar."
+      },
+      {
+        "name": "dialog",
+        "value": "0 30px 80px rgba(15, 43, 37, .35)",
+        "purpose": "Booking sheet from 720px."
+      },
+      {
+        "name": "header-hairline",
+        "value": "0 1px 0 rgba(156, 116, 50, .28)",
+        "purpose": "Solid masthead on scroll."
+      },
+      {
+        "name": "gilt-ring",
+        "value": "0 0 0 2px var(--malachite), 0 0 0 3px var(--gilt-bright)",
+        "purpose": "Selected shade chip; the booking seal uses an enamel/gilt variant."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px rgba(199, 165, 102, .28)",
+        "purpose": "Focused text fields."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Expo-out easing for all transitions (--ease)."
+      },
+      {
+        "name": "control",
+        "value": ".25s to .35s",
+        "purpose": "Buttons, chips, fields, slots."
+      },
+      {
+        "name": "reveal",
+        "value": ".6s",
+        "purpose": "Accordion rows, booking sheet entry, progress bar, action bar."
+      },
+      {
+        "name": "hero-sequence",
+        "value": "1.1s to 2s, staggered .09s to 1.65s",
+        "purpose": "The single load sequence: headline lines rise, ruler draws, arch opens, gilt guides trace."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "durations .01ms, delays 0",
+        "purpose": "prefers-reduced-motion collapses all motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "md",
+        "value": "720px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Primary action: Book a consultation, confirm booking steps.",
+      "html": "<button class=\"ds-btn-ink\">Book a consultation</button>",
+      "css": ".ds-btn-ink{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;min-height:3.25rem;padding:0 1.6rem;border-radius:99px;border:1px solid transparent;background:var(--ink,#1C1A16);color:var(--enamel,#F3ECDF);font:500 1rem/1 var(--sans,\"Hanken Grotesk\",sans-serif);letter-spacing:.005em;cursor:pointer;transition:background-color .35s cubic-bezier(.16,1,.3,1),transform .35s cubic-bezier(.16,1,.3,1)}.ds-btn-ink:hover{background:var(--malachite,#163A32)}.ds-btn-ink:active{transform:scale(.98)}.ds-btn-ink:focus-visible{outline:2px solid var(--gilt,#9C7432);outline-offset:3px}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary action such as WhatsApp.",
+      "html": "<button class=\"ds-btn-line\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 12a9 9 0 0 1-13.4 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12z\"/></svg>WhatsApp us</button>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;min-height:3.25rem;padding:0 1.6rem;border-radius:99px;border:1px solid rgba(28,26,22,.28);background:transparent;color:var(--ink,#1C1A16);font:500 1rem/1 var(--sans,\"Hanken Grotesk\",sans-serif);cursor:pointer;transition:background-color .35s cubic-bezier(.16,1,.3,1),border-color .35s cubic-bezier(.16,1,.3,1),transform .35s cubic-bezier(.16,1,.3,1)}.ds-btn-line:hover{border-color:var(--ink,#1C1A16);background:var(--paper,#FBF7F0)}.ds-btn-line:active{transform:scale(.98)}.ds-btn-line:focus-visible{outline:2px solid var(--gilt,#9C7432);outline-offset:3px}"
+    },
+    {
+      "name": "Gilt Button",
+      "kind": "button",
+      "refersTo": "button-gilt",
+      "description": "Action on malachite grounds.",
+      "html": "<div class=\"ds-dark\"><button class=\"ds-btn-gilt\">Book this smile design</button></div>",
+      "css": ".ds-dark{background:var(--malachite,#163A32);padding:1.5rem}.ds-btn-gilt{min-height:3.25rem;padding:0 1.6rem;border-radius:99px;border:0;background:var(--gilt-bright,#D9BD86);color:var(--malachite-deep,#0F2B25);font:500 1rem/1 var(--sans,\"Hanken Grotesk\",sans-serif);cursor:pointer;transition:background-color .35s cubic-bezier(.16,1,.3,1),transform .35s cubic-bezier(.16,1,.3,1)}.ds-btn-gilt:hover{background:#E7D2A6}.ds-btn-gilt:active{transform:scale(.98)}.ds-btn-gilt:focus-visible{outline:2px solid var(--gilt-bright,#D9BD86);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Enquiry and booking text fields.",
+      "html": "<label class=\"ds-field\"><span>Your name</span><input placeholder=\"Full name\"></label>",
+      "css": ".ds-field{display:block;max-width:22rem}.ds-field span{display:block;font:500 .875rem/1.4 var(--sans,\"Hanken Grotesk\",sans-serif);margin-bottom:.45rem;color:var(--ink,#1C1A16)}.ds-field input{width:100%;min-height:3.25rem;padding:.8rem 1rem;border:1px solid rgba(28,26,22,.22);border-radius:4px;background:var(--enamel,#F3ECDF);color:var(--ink,#1C1A16);font:400 1rem var(--sans,\"Hanken Grotesk\",sans-serif);caret-color:var(--gilt,#9C7432);transition:border-color .25s,box-shadow .25s,background-color .25s}.ds-field input:hover{border-color:rgba(28,26,22,.45)}.ds-field input:focus{outline:none;border-color:var(--gilt,#9C7432);box-shadow:0 0 0 3px rgba(199,165,102,.28);background:#fff}"
+    },
+    {
+      "name": "Filter Chips",
+      "kind": "chip",
+      "refersTo": "chip-filter",
+      "description": "Treatment category filters; the selected chip fills ink.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" aria-selected=\"true\">All</button><button class=\"ds-chip\">Cosmetic</button><button class=\"ds-chip\">Restorative</button></div>",
+      "css": ".ds-chips{display:flex;gap:.5rem}.ds-chip{padding:.6rem 1.1rem;border-radius:99px;border:1px solid rgba(28,26,22,.2);background:transparent;color:var(--ink,#1C1A16);font:400 .9375rem var(--sans,\"Hanken Grotesk\",sans-serif);cursor:pointer;transition:background-color .3s cubic-bezier(.16,1,.3,1),border-color .3s cubic-bezier(.16,1,.3,1),color .3s cubic-bezier(.16,1,.3,1)}.ds-chip:hover{border-color:var(--ink,#1C1A16)}.ds-chip[aria-selected=\"true\"]{background:var(--ink,#1C1A16);color:var(--enamel,#F3ECDF);border-color:var(--ink,#1C1A16)}.ds-chip:focus-visible{outline:2px solid var(--gilt,#9C7432);outline-offset:3px}"
+    },
+    {
+      "name": "Arch Frame",
+      "kind": "custom",
+      "refersTo": "rounded.arch",
+      "description": "Arch-topped photo frame with the offset gilt outline and a Fig. caption.",
+      "html": "<figure class=\"ds-plate\"><div class=\"ds-arch\"></div><figcaption><span>The suite, 33rd Road</span><em>Fig. 1</em></figcaption></figure>",
+      "css": ".ds-plate{position:relative;width:12rem;margin:1rem}.ds-plate::before{content:\"\";position:absolute;left:-.6rem;right:-.6rem;top:-.6rem;height:calc(16rem + 1.2rem);border:1px solid var(--gilt,#9C7432);border-radius:999px 999px 6px 6px;opacity:.7;pointer-events:none}.ds-arch{height:16rem;border-radius:999px 999px 4px 4px;background:linear-gradient(180deg,var(--vellum,#E8DCC6),#C9B48E)}.ds-plate figcaption{display:flex;justify-content:space-between;margin-top:1.1rem;font:400 .8125rem var(--sans,\"Hanken Grotesk\",sans-serif);color:var(--ink-mute,#6B6456)}.ds-plate em{font-family:var(--serif,\"Bodoni Moda\",serif)}"
+    },
+    {
+      "name": "Proportion Ruler",
+      "kind": "custom",
+      "refersTo": "colors.gilt",
+      "description": "Gilt measuring rule marked 0, 0.618, 1, 1.618.",
+      "html": "<div class=\"ds-rule\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b style=\"left:0\">0</b><b style=\"left:38.2%;transform:translateX(-50%)\">0.618</b><b style=\"left:61.8%;transform:translateX(-50%)\">1</b><b style=\"left:100%;transform:translateX(-100%)\">1.618</b></div>",
+      "css": ".ds-rule{position:relative;height:1.9rem;max-width:26rem;border-top:1px solid var(--gilt,#9C7432);display:flex;justify-content:space-between;transform-origin:left;transition:transform 1.2s cubic-bezier(.16,1,.3,1)}.ds-rule:hover{transform:scaleX(1.02)}.ds-rule i{width:1px;height:.45rem;background:var(--gilt,#9C7432)}.ds-rule i:nth-child(5n+1){height:.75rem}.ds-rule b{position:absolute;top:.85rem;font:500 .6875rem/1 var(--sans,\"Hanken Grotesk\",sans-serif);color:var(--gilt-ink,#7A5A20);font-variant-numeric:lining-nums tabular-nums}"
+    },
+    {
+      "name": "Booking Day and Slot",
+      "kind": "chip",
+      "refersTo": "day-cell-selected",
+      "description": "Booking sheet day cells (arch-chip) and time slots (pill).",
+      "html": "<div class=\"ds-bk\"><button class=\"ds-day\" aria-checked=\"true\"><small>Thu</small><b>16</b></button><button class=\"ds-day\"><small>Fri</small><b>17</b></button><button class=\"ds-slot\" aria-checked=\"true\">10:30</button><button class=\"ds-slot\">11:00</button><button class=\"ds-slot\" disabled>11:30</button></div>",
+      "css": ".ds-bk{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}.ds-day{display:grid;justify-items:center;gap:.2rem;width:4.4rem;padding:.7rem 0 .8rem;border-radius:99px 99px 10px 10px;border:1px solid rgba(28,26,22,.16);background:var(--paper,#FBF7F0);color:var(--ink,#1C1A16);cursor:pointer;transition:background-color .25s cubic-bezier(.16,1,.3,1),border-color .25s cubic-bezier(.16,1,.3,1),color .25s cubic-bezier(.16,1,.3,1)}.ds-day small{font:400 .75rem var(--sans,\"Hanken Grotesk\",sans-serif);color:var(--ink-mute,#6B6456)}.ds-day b{font:400 1.6rem/1 var(--serif,\"Bodoni Moda\",serif);font-variant-numeric:lining-nums}.ds-day[aria-checked=\"true\"]{background:var(--malachite,#163A32);border-color:var(--malachite,#163A32);color:var(--on-dark,#EFE6D3)}.ds-day[aria-checked=\"true\"] small{color:var(--gilt-bright,#D9BD86)}.ds-slot{min-height:2.9rem;padding:0 1.1rem;border-radius:99px;border:1px solid rgba(28,26,22,.18);background:var(--paper,#FBF7F0);color:var(--ink,#1C1A16);font:400 .9375rem var(--sans,\"Hanken Grotesk\",sans-serif);font-variant-numeric:tabular-nums;cursor:pointer;transition:background-color .25s cubic-bezier(.16,1,.3,1),border-color .25s cubic-bezier(.16,1,.3,1)}.ds-slot:hover:not(:disabled){border-color:var(--ink,#1C1A16)}.ds-slot[aria-checked=\"true\"]{background:var(--ink,#1C1A16);color:var(--enamel,#F3ECDF);border-color:var(--ink,#1C1A16)}.ds-slot:disabled{text-decoration:line-through;color:#A59D8D;background:transparent;border-style:dashed;cursor:not-allowed}.ds-day:focus-visible,.ds-slot:focus-visible{outline:2px solid var(--gilt,#9C7432);outline-offset:3px}"
+    },
+    {
+      "name": "Mobile Action Bar",
+      "kind": "nav",
+      "refersTo": "actionbar",
+      "description": "Floating ink pill with Call, WhatsApp and a gilt Book target.",
+      "html": "<nav class=\"ds-bar\"><a href=\"#\">Call</a><a href=\"#\">WhatsApp</a><button>Book</button></nav>",
+      "css": ".ds-bar{display:grid;grid-template-columns:1fr 1fr 1.6fr;gap:.25rem;padding:.3rem;max-width:22rem;background:rgba(28,26,22,.94);border-radius:99px;box-shadow:0 12px 32px rgba(28,26,22,.28)}.ds-bar a,.ds-bar button{display:flex;align-items:center;justify-content:center;min-height:3rem;border-radius:99px;border:0;background:transparent;color:var(--on-dark,#EFE6D3);font:500 .9375rem var(--sans,\"Hanken Grotesk\",sans-serif);text-decoration:none;cursor:pointer;transition:background-color .3s cubic-bezier(.16,1,.3,1)}.ds-bar a:hover{background:rgba(239,230,211,.08)}.ds-bar button{background:var(--gilt-bright,#D9BD86);color:var(--malachite-deep,#0F2B25)}.ds-bar a:focus-visible,.ds-bar button:focus-visible{outline:2px solid var(--gilt-bright,#D9BD86);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Made-to-Measure Folio",
+    "overview": "The site is a tailor's folio for smiles. An enamel-ivory page carries warm ink type, Bodoni Moda headlines set very large and tight, and thin gilt lines that measure things: a ruled scale marked 0, 0.618, 1 and 1.618 under the hero headline, golden-section guides drawn over the hero photograph, and faint golden-section verticals inside the malachite studio. Every photograph sits in an arch-topped deco frame. Most arches are ringed by a second gilt outline set a few millimetres off the image, like a mount in a frame shop.\n\nDensity is low and the pace is slow. Sections are separated by generous vertical space (clamp 5rem to 9.5rem) and by changes of ground colour, not by cards. The page moves between enamel, paper and two depths of malachite, which fill whole sections edge to edge, and ends on an ink footer. Interaction is quiet and precise: one load sequence (headline lines rise, the ruler draws in, the arch opens upward, the gilt guides trace across the photo), soft expo-out easing everywhere, and real measured numerals in the studio readout.\n\nLists are hairline-ruled indexes (treatments, credentials, FAQ, hours, booking summary), each opened by a full-strength ink rule and divided by faint ink hairlines. Pills are reserved for things you press or choose.",
+    "keyCharacteristics": [
+      "Enamel ivory ground, warm ink type, gilt used as line and numeral, never as fill area.",
+      "Malachite owns whole sections (Smile Studio, clinic gallery, mobile menu); it is never a small card colour.",
+      "Arch-topped frames for every photograph, most with an offset gilt outline.",
+      "Bodoni Moda display at very large sizes with negative tracking; Hanken Grotesk for reading; one script signature.",
+      "Proportion motif (0.618 / 1 / 1.618) drawn as rulers, ticks and guides.",
+      "Pills for actions and choices only; ruled indexes for content lists."
+    ],
+    "rules": [
+      {
+        "name": "The Gilt Is a Line Rule",
+        "body": "Gilt draws, measures and marks; it does not fill panels. The only gilt fills are pressable: the gilt button, the action bar's Book button, shade chips, the slider thumb.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gilt Ink Rule",
+        "body": "Small text in gold on a light ground uses gilt-ink. Plain gilt on enamel is only about 3.6:1, so it is reserved for hairlines, ticks and numerals at display size (step numbers at 4.5rem).",
+        "section": "colors"
+      },
+      {
+        "name": "The Whole-Field Malachite Rule",
+        "body": "Malachite arrives as a full-bleed section or overlay, never as a tinted card on ivory.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serif Numeral Rule",
+        "body": "Measured numbers that matter (step numbers, readout values, day numbers, booking reference, counters) are set in Bodoni Moda with lining, tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence-Case Label Rule",
+        "body": "Labels and meta are sentence case at normal tracking. The system has no uppercase tracked labels.",
+        "section": "typography"
+      },
+      {
+        "name": "The Float-Only Shadow Rule",
+        "body": "A shadow means the element floats (action bar, dialog, slider thumb). Sections and cards sit flat on their ground.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do frame every photograph in an arch (999px 999px 4px 4px), and give featured images the offset 1px gilt outline.",
+      "Do let malachite and ink take whole sections; move between enamel, paper, malachite and ink to separate sections.",
+      "Do use gilt-ink for small gold text on light grounds and gilt-bright for gold on dark grounds.",
+      "Do set headings, list names, quotes and important numerals in Bodoni Moda with lining figures, and reading copy in Hanken Grotesk at 1.0625rem/1.6.",
+      "Do build content lists as ruled indexes: a full ink rule on top, faint ink hairlines between rows.",
+      "Do use the expo-out ease (cubic-bezier(.16, 1, .3, 1)) for transitions, and keep the reduced-motion override that collapses all motion.",
+      "Do keep a booking action one tap away on mobile (the action bar) and on desktop (the masthead)."
+    ],
+    "donts": [
+      "Don't fill panels, cards or backgrounds with gilt; it is a line, a numeral or a pressable control.",
+      "Don't use plain gilt for small text on enamel or paper (about 3.6:1).",
+      "Don't put a photograph in a plain rectangle or a uniformly rounded card.",
+      "Don't use pills for content containers; pills mean \"press\" or \"choose\".",
+      "Don't add uppercase tracked labels or eyebrow lines above headings; headings stand alone.",
+      "Don't add shadows to sections or in-flow cards; shadows are for floating elements only.",
+      "Don't use the script face for anything but the doctor's signature."
+    ]
+  }
+}

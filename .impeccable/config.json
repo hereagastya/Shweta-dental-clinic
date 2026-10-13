@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-13T06:22:03.052Z",
+        "reason": "agent triage: flagged elements are hairline-ruled lists and full-bleed sections whose inner wrappers carry the padding; screenshots show proper insets"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-13T06:22:03.665Z",
+        "reason": "user chose the Editorial Luxe theme (warm ivory ground) in the theme question"
+      },
+      {
+        "rule": "clipped-overflow-container",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-13T06:22:04.205Z",
+        "reason": "agent triage: body overflow-x hidden is an intentional guard against horizontal scroll on mobile"
+      }
+    ]
+  }
+}
